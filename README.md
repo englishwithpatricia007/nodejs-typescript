@@ -4,6 +4,7 @@ npm install typescript @types/node -D
 npx tsc --init
 npm install tsx -D
 ```
+
 tsconfig.json
 
 https://github.com/microsoft/TypeScript/wiki/Node-Target-Mapping
@@ -20,8 +21,13 @@ https://github.com/microsoft/TypeScript/wiki/Node-Target-Mapping
 }
 
 package.json
+
 ```bash
 "scripts": {
 "dev": "tsx watch src/http/server.ts"
 },
+```
+
+```bash
+npm install fastify
 ```
